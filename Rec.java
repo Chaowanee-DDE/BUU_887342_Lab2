@@ -14,7 +14,8 @@ public class Rec {
 
     public static int sumDigits(int n) {
 	
-	// fill me in
+	if(n==0) return 0;
+	return n%10 + sumDigits(n/10);
 	
     }
 	
