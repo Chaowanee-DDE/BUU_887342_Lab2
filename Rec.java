@@ -12,10 +12,6 @@ public class Rec {
 	return 1 + numDigits(n/10);
     }
 
-    /** = sum of the digits in the decimal representation of n.
-      e.g. sumDigits(0) = 0, sumDigits(3) = 3, sumDigits(34) = 7,
-      sumDigits(345) = 12.
-      Precondition: n >= 0. */
     public static int sumDigits(int n) {
 	
 	// fill me in
